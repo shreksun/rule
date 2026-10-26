@@ -11,6 +11,7 @@
       {"type": "hosts", "tag": "hosts", "predefined": {"doh.pub": ["1.12.12.21", "120.53.53.53"]}}
     ],
     "rules": [
+      {"domain_suffix": ["tv.apple.com","itunes.apple.com","mzstatic.com"],  "server": "atv"}
       {"domain": "vod-ap-aoc.tv.apple.com", "server": "atv"},
       {"domain": "hls-amt.itunes.apple.com", "server": "atv"},
       {"query_type": ["HTTPS", "SVCB"], "action": "reject"},
